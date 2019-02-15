@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contents" section_id="21e956e9dbf75b00085cf12aaf9619fa" sys_domain="global" table="x_sone_voucher_voucher_order_form" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 14:50:32</sys_created_on>
+            <sys_id>012b416edb9ee740cc4dfce9af961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 14:50:32</sys_updated_on>
+            <text>Voucher will be redeemable where content is available per metadata submission</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>012b416edb9ee740cc4dfce9af961932</element>
+            <position>0</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 14:50:32</sys_created_on>
+            <sys_id>492b416edb9ee740cc4dfce9af961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contents" display_value="Contents" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">21e956e9dbf75b00085cf12aaf9619fa</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 14:50:32</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 14:50:32</sys_created_on>
+            <sys_id>c92b416edb9ee740cc4dfce9af961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contents" display_value="Contents" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">21e956e9dbf75b00085cf12aaf9619fa</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 14:50:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contents</caption>
+            <header>false</header>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-08 11:23:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e956e9dbf75b00085cf12aaf9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contents</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_ui_section_21e956e9dbf75b00085cf12aaf9619fa</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-08 11:23:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

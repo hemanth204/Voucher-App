@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>bill_to_email_address</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Bill to Email Address Validation </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	if(oldValue != newValue){
+		g_form.hideFieldMsg('bill_to_email_address', true);
+		if (!isEmailValid(newValue)) {
+			g_form.showFieldMsg('bill_to_email_address', newValue + " is an invalid email, please re-enter email in correct format.",'error');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-08-13 11:47:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f72fc01bdbb35f40cc4dfce9af96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Bill to Email Address Validation </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_script_client_f72fc01bdbb35f40cc4dfce9af96194d</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-08-13 11:47:47</sys_updated_on>
+        <table>x_sone_voucher_voucher_order_form</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

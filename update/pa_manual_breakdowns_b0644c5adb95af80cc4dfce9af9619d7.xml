@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_manual_breakdowns">
+    <pa_manual_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="CMDB Class Manual">8a35ec16f3011200eaae19d854612b65</breakdown>
+        <order>100</order>
+        <sys_class_name>pa_manual_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-23 22:00:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0644c5adb95af80cc4dfce9af9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_qualifier_traffic_based_connecti</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>pa_manual_breakdowns_b0644c5adb95af80cc4dfce9af9619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-23 22:00:07</sys_updated_on>
+        <value>cmdb_ci_qualifier_traffic_based_connecti</value>
+    </pa_manual_breakdowns>
+</record_update>

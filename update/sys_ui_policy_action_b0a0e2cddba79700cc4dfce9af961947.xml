@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>finished_good_usage_type</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-07-25 12:20:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b0a0e2cddba79700cc4dfce9af961947</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>finished_good_usage_type</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b0a0e2cddba79700cc4dfce9af961947</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-07-25 12:23:21</sys_updated_on>
+        <table>x_sone_voucher_voucher_order_form</table>
+        <ui_policy display_value="Finished Good Usage Type Display">f08022cddba79700cc4dfce9af961945</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

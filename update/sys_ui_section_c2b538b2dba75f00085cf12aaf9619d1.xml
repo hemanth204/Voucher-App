@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Purchase Order" section_id="c2b538b2dba75f00085cf12aaf9619d1" sys_domain="global" table="x_sone_voucher_voucher_order_form" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_number</element>
+            <position>0</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>dc93455bdb775f40cc4dfce9af9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>5093455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>d093455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>5493455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_po_amount</element>
+            <position>4</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>d493455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>5893455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_po_quantity</element>
+            <position>6</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>d893455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>5c93455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_attachment</element>
+            <position>8</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>dc93455bdb775f40cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_sone_voucher_voucher_order_form.x_sone_voucher_new_po_line.order_number</element>
+            <position>9</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>5093455bdb775f40cc4dfce9af9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:35:55</sys_created_on>
+            <sys_id>d093455bdb775f40cc4dfce9af9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Order" display_value="Purchase Order" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">c2b538b2dba75f00085cf12aaf9619d1</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:35:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Purchase Order</caption>
+            <header>false</header>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-30 15:02:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2b538b2dba75f00085cf12aaf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchase Order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_ui_section_c2b538b2dba75f00085cf12aaf9619d1</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-30 15:02:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

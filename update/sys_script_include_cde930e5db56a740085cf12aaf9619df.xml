@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_sone_voucher.Date_Valid</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Date_Valid</name>
+        <script><![CDATA[var Date_Valid = Class.create();
+Date_Valid.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+validation:function(){
+	var formdate=this.getParameter('sysparm_dt');
+	var dateTime=new GlideDate();
+	dateTime.setValue(formdate); 
+	dateTime.addYearsLocalTime(3);
+	gs.info("Date s "+dateTime);
+	return dateTime;
+},
+    type: 'Date_Valid'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-12-10 11:01:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cde930e5db56a740085cf12aaf9619df</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Date_Valid</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_script_include_cde930e5db56a740085cf12aaf9619df</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-12-10 11:42:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_sone_voucher.glide.script.block.client.globals</name>
+        <read_roles/>
+        <suffix>glide.script.block.client.globals</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-10-17 14:58:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4a3aa788dbd12b80cc4dfce9af961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sone_voucher.glide.script.block.client.globals</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_properties_4a3aa788dbd12b80cc4dfce9af961945</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-10-17 14:58:25</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a3aa788dbd12b80cc4dfce9af961945"/>
+</record_update>

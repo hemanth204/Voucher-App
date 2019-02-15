@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Voucher Order Form" max_length="40" name="x_sone_voucher_voucher_order_form" sizeclass="10" type="collection">
+        <element label="Account # Status" max_length="400" name="account_status" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Active Email" max_length="40" name="active_email" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element label="Approval Comments/Notes" max_length="400" name="approval_comments_notes" type="journal"/>
+        <element label="Approval Notes / Comments" max_length="400" name="approval_notes_comments" type="string"/>
+        <element choice="1" label="Associated Content Distribution" mandatory="true" max_length="40" name="associated_content_distribution" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Voucher &amp; Storefront Release" value="Voucher &amp; Storefront Release"/>
+                <element inactive_on_update="false" label="Voucher Only Release" value="Voucher Only Release"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Auto-Activation set " max_length="40" name="auto_activation_set" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Auto-Activation set " max_length="40" name="auto_activation_set1" type="boolean"/>
+        <element label="Bill to Email Address" max_length="40" name="bill_to_email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bundled with another product " max_length="40" name="bundled_with_another_product" type="boolean"/>
+        <element choice="1" label="Business Purpose" max_length="40" name="business_purpose" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Beta" value="Beta"/>
+                <element inactive_on_update="false" label="Consumer Service" value="Consumer Service"/>
+                <element inactive_on_update="false" label="Finished Good" value="Finished Good"/>
+                <element inactive_on_update="false" label="Internal/Internal Test" value="Internal/Internal Test"/>
+                <element inactive_on_update="false" label="Marketing" value="Marketing"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Pre-order" value="Pre-order"/>
+                <element inactive_on_update="false" label="Press/Media" value="Press/Media"/>
+                <element inactive_on_update="false" label="Promo" value="Promo"/>
+                <element inactive_on_update="false" label="Retailer" value="Retailer"/>
+            </choice>
+        </element>
+        <element label="Business Purpose Explanation" max_length="100" name="business_purpose_explanation" type="string"/>
+        <element label="Business Purpose (other)" max_length="40" name="business_purpose_other" type="string"/>
+        <element label="Business reason for Expedited Voucher" max_length="100" name="business_reason_for_expedited_voucher" type="string"/>
+        <element label="CIA Pro Forma Status" max_length="400" name="cia_pro_forma_status" type="journal"/>
+        <element label="CIA Receipt Status" max_length="400" name="cia_receipt_status" type="journal"/>
+        <element label="Codes Delivered to (Email)" max_length="40" name="codes_delivered_to_email" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Codes Delivered to Person" max_length="4000" name="codes_delivered_to_person" reference="sys_user" type="glide_list"/>
+        <element choice="1" label="Company/Dept" max_length="40" name="company_dept" type="string">
+            <choice>
+                <element inactive_on_update="false" label="921 SBD" value="921 SBD"/>
+                <element inactive_on_update="false" label="Brand Partnerships" value="Brand Partnerships"/>
+                <element inactive_on_update="false" label="CDEV(PD)" value="CDEV(PD)"/>
+                <element inactive_on_update="false" label="Consumer Services" value="Consumer Services"/>
+                <element inactive_on_update="false" label="CRM Marketing" value="CRM Marketing"/>
+                <element inactive_on_update="false" label="Employee Store" value="Employee Store"/>
+                <element inactive_on_update="false" label="Global Service Operations" value="Global Service Operations"/>
+                <element inactive_on_update="false" label="ISD-A" value="ISD-A"/>
+                <element inactive_on_update="false" label="LATAM" value="LATAM"/>
+                <element inactive_on_update="false" label="Marketing Canada" value="Marketing Canada"/>
+                <element inactive_on_update="false" label="NOC" value="NOC"/>
+                <element inactive_on_update="false" label="PDSG" value="PDSG"/>
+                <element inactive_on_update="false" label="PlayStation Video - Digital Commerce Dept" value="PlayStation Video - Digital Commerce Dept"/>
+                <element inactive_on_update="false" label="PlayStation Video - Product Marketing" value="PlayStation Video - Product Marketing"/>
+                <element inactive_on_update="false" label="Product Marketing Hardware" value="Product Marketing Hardware"/>
+                <element inactive_on_update="false" label="Product Marketing Software" value="Product Marketing Software"/>
+                <element inactive_on_update="false" label="Retail Marketing" value="Retail Marketing"/>
+                <element inactive_on_update="false" label="San Diego Studio SD" value="San Diego Studio SD"/>
+                <element inactive_on_update="false" label="San Mateo PD" value="San Mateo PD"/>
+                <element inactive_on_update="false" label="Santa Monica PD" value="Santa Monica PD"/>
+                <element inactive_on_update="false" label="SCEA Ops" value="SCEA Ops"/>
+                <element inactive_on_update="false" label="SCEA TPR" value="SCEA TPR"/>
+                <element inactive_on_update="false" label="SCEA/PD Creative" value="SCEA/PD Creative"/>
+                <element inactive_on_update="false" label="SIE Vue Ops" value="SIE Vue Ops"/>
+                <element inactive_on_update="false" label="SIEA Employee Store" value="SIEA Employee Store"/>
+                <element inactive_on_update="false" label="SIEA-DTG-922" value="SIEA-DTG-922"/>
+                <element inactive_on_update="false" label="SIEC Sales" value="SIEC Sales"/>
+                <element inactive_on_update="false" label="SNEI Development Operations" value="SNEI Development Operations"/>
+                <element inactive_on_update="false" label="SNEI Marketing" value="SNEI Marketing"/>
+                <element inactive_on_update="false" label="WWS Online Technology Group" value="WWS Online Technology Group"/>
+                <element inactive_on_update="false" label="XPLab - 782" value="XPLab - 782"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" label="Content Retail Value" max_length="20" name="content_retail_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date Override" max_length="40" name="delivery_date_override" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you waive the royalties for this request?" max_length="40" name="do_you_waive" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Edit Mode" max_length="40" name="edit_mode" type="boolean"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" default="5000" label="Estimated Voucher Fee" max_length="20" name="estimated_voucher_fee" read_only="true" type="currency"/>
+        <element label="Expedited Voucher Activation Date Request Business Justification" max_length="400" name="expedited_voucher_activation_date_request_business_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expedited Voucher Activation Date Request (within 2 days)" max_length="40" name="expedited_voucher_activation_date_request_within_2_days" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Expedited Voucher Request" max_length="40" name="expedited_voucher_request" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Finance Approver" max_length="4000" name="finance_approver" reference="sys_user" type="glide_list"/>
+        <element label="Finance Management Approval Status" max_length="400" name="finance_management_approval_status" type="journal"/>
+        <element choice="1" label="Finished Good Usage Type" max_length="40" name="finished_good_usage_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hardware Bundle" value="Hardware Bundle"/>
+                <element inactive_on_update="false" label="Peripheral Bundle" value="Peripheral Bundle"/>
+                <element inactive_on_update="false" label="Software" value="Software"/>
+            </choice>
+        </element>
+        <element default="110-500919-999-0380272-101-201-000-PSN-000000" label="GL Code" max_length="100" name="gl_code" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="How many times" max_length="40" name="how_many_times" type="integer"/>
+        <element label="Invoice Status" max_length="400" name="invoice_status" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Finance Approver" max_length="32" name="next_finance_approver" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Next VRF Approver" max_length="4000" name="next_vrf_approver1" reference="sys_user" type="glide_list"/>
+        <element choice="3" default="New Order" label="Order Type " max_length="40" name="order_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New Order" value="New Order"/>
+                <element inactive_on_update="false" label="Reorder" value="Reorder"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Partner Title" max_length="40" name="partner_title" type="boolean"/>
+        <element choice="1" label="Payment Type" max_length="40" name="payment_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CASH" value="CASH"/>
+                <element inactive_on_update="false" label="CREDIT" value="CREDIT"/>
+                <element inactive_on_update="false" label="WAIVER" value="WAIVER"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="PD Approver" max_length="4000" name="pd_approver" reference="sys_user" type="glide_list"/>
+        <element default="Please find attachment pin on header to upload your file" label="PO Attachment " max_length="100" name="po_attachment" read_only="true" type="string"/>
+        <element label="PO Number " max_length="40" name="po_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="32" name="publisher" reference="x_sone_voucher_publisher_information" type="reference"/>
+        <element label="Publisher Email Address" max_length="40" name="publisher_email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity Requested " mandatory="true" max_length="40" name="quantity_requested" type="integer"/>
+        <element choice="3" default="NO" label="Redeemed more than once?" mandatory="true" max_length="40" name="redeemed_more_than_once" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NO" value="NO"/>
+                <element inactive_on_update="false" label="YES" value="YES"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" choice="2" label="Related Strategic Release" max_length="4000" name="related_strategic_release" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Attack On Titan" value="Attack On Titan"/>
+                <element inactive_on_update="false" label="Battlefield 1" value="Battlefield 1"/>
+                <element inactive_on_update="false" label="COD MWR" value="COD MWR"/>
+                <element inactive_on_update="false" label="Dishonored 2" value="Dishonored 2"/>
+                <element inactive_on_update="false" label="FIFA 17" value="FIFA 17"/>
+                <element inactive_on_update="false" label="For Honor" value="For Honor"/>
+                <element inactive_on_update="false" label="Horizon" value="Horizon"/>
+                <element inactive_on_update="false" label="Madden 17" value="Madden 17"/>
+                <element inactive_on_update="false" label="Mass Effect: Andromeda" value="Mass Effect: Andromeda"/>
+                <element inactive_on_update="false" label="MLB" value="MLB"/>
+                <element inactive_on_update="false" label="Monster: World" value="Monster: World"/>
+                <element inactive_on_update="false" label="Morrowind" value="Morrowind"/>
+                <element inactive_on_update="false" label="Parappa PS4" value="Parappa PS4"/>
+                <element inactive_on_update="false" label="Prey" value="Prey"/>
+                <element inactive_on_update="false" label="Resident Evil 7" value="Resident Evil 7"/>
+                <element inactive_on_update="false" label="Sonic Forces" value="Sonic Forces"/>
+                <element inactive_on_update="false" label="Star Wars Battlefront II" value="Star Wars Battlefront II"/>
+                <element inactive_on_update="false" label="Titanfall 2" value="Titanfall 2"/>
+                <element inactive_on_update="false" label="Watch_Dogs 2" value="Watch_Dogs 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested Delivery Date" max_length="40" name="requested_delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested Delivery Date/Time(PST)" max_length="40" name="requested_delivery_date_time_pst" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor Name " mandatory="true" max_length="4000" name="requestor_name" reference="sys_user" type="glide_list" use_dynamic_default="true"/>
+        <element label="If Royalties are not waived please indicate who is paying for these vouchers." max_length="400" name="royalties_are_not_waived" type="string"/>
+        <element label="Royalty Waiver" max_length="40" name="royalty_waiver" type="string"/>
+        <element label="Sample Voucher Code" max_length="40" name="sample_voucher_code" type="string"/>
+        <element label="Sample Voucher Code" max_length="40" name="sample_voucher_code1" type="string"/>
+        <element label="SCEA Finance Status" max_length="40" name="scea_finance_status" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="SCEA OPS Approver " mandatory="true" max_length="4000" name="scea_ops_approver" reference="sys_user" type="glide_list"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" default="5000" label="Setup Fee" max_length="20" name="setup_fee" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Show Approval Summary" max_length="40" name="show_approval_summary" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Show Voucher Paid Services" max_length="40" name="show_voucher_paid_services" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="SNE Operator" max_length="32" name="sne_operator" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Date" max_length="40" name="street_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Suggested Expiration date" max_length="40" name="suggested_expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Top Publisher" max_length="40" name="top_publisher" type="boolean"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" label="Total Content Retail Value" max_length="20" name="total_content_retail_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Total PO Amount " max_length="40" name="total_po_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total PO Quantity " max_length="40" name="total_po_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Activation Date" mandatory="true" max_length="40" name="voucher_activation_date_pst" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="08:00:00" label="Voucher Activation Time (PST)" max_length="40" name="voucher_activation_time_pst" type="glide_time"/>
+        <element default="Please find an attachment pin on header to upload your file" label="Voucher Attachment" max_length="100" name="voucher_attachment" read_only="true" type="string"/>
+        <element default="Please find an attachment pin on header to upload your file" label="Voucher Attachment 2" max_length="100" name="voucher_attachment_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Batch ID" max_length="1000" name="voucher_batch_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Delivery Date" max_length="40" name="voucher_delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Expiration Date " mandatory="true" max_length="40" name="voucher_expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Form Notes" max_length="4000" name="voucher_form_notes" type="html"/>
+        <element label="Voucher Name " mandatory="true" max_length="40" name="voucher_name" type="string"/>
+        <element label="Voucher Order Review Status" max_length="400" name="voucher_order_review_status" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Voucher Party and Payment Type" max_length="40" name="voucher_party_and_payment_type" read_only="true" type="string"/>
+        <element choice="3" default="3rd Party" label="Voucher Request Party Type " max_length="40" name="voucher_request_party_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1st Party" value="first_party"/>
+                <element inactive_on_update="false" label="3rd Party" value="3rd Party"/>
+            </choice>
+        </element>
+        <element choice="1" label="Voucher Type" max_length="40" name="voucher_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Promotional (Free) or Beta" value="Promotional (Free) or Beta"/>
+                <element inactive_on_update="false" label="Promotional (Hardware, C.E., GoTY)" value="Promotional (Hardware, C.E., GoTY)"/>
+                <element inactive_on_update="false" label="Promotional (Paid)" value="Promotional (Paid)"/>
+            </choice>
+        </element>
+        <element choice="1" label="VRF Order Status" max_length="40" name="vrf_order_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Finance Review" value="Finance Review"/>
+                <element inactive_on_update="false" label="OPS Delivery" value="OPS Delivery"/>
+                <element inactive_on_update="false" label="OPS Review" value="OPS Review"/>
+                <element inactive_on_update="false" label="PD Review" value="PD Review"/>
+                <element inactive_on_update="false" label="QC Check" value="QC Check"/>
+                <element inactive_on_update="false" label="SNE Review" value="SNE Review"/>
+                <element inactive_on_update="false" label="Voucher Order Review" value="Voucher Order Review"/>
+                <element inactive_on_update="false" label="VRF Cancelled" value="VRF Cancelled"/>
+                <element inactive_on_update="false" label="VRF Closed" value="VRF Closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="VRF Request Date" max_length="40" name="vrf_request_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element label="VRF SNE Status" max_length="40" name="vrf_sne_status" type="string"/>
+        <element label="Wire Information" max_length="40" name="wire_information" type="string"/>
+    </element>
+</database>

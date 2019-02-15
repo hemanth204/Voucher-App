@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="OPM Control Panel" section_id="b1e1242edb9ae740cc4dfce9af961946" sys_domain="global" table="x_sone_voucher_voucher_order_form" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>8682a86edb9ae740cc4dfce9af961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>voucher_party_and_payment_type</element>
+            <position>1</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>0e82a86edb9ae740cc4dfce9af961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>8e82a86edb9ae740cc4dfce9af961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active_email</element>
+            <position>3</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>0282a86edb9ae740cc4dfce9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>delivery_date_override</element>
+            <position>4</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>8282a86edb9ae740cc4dfce9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>0682a86edb9ae740cc4dfce9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_approval_summary</element>
+            <position>6</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>8682a86edb9ae740cc4dfce9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_voucher_paid_services</element>
+            <position>7</position>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:53:07</sys_created_on>
+            <sys_id>0a82a86edb9ae740cc4dfce9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OPM Control Panel" display_value="OPM Control Panel" name="x_sone_voucher_voucher_order_form" sys_domain="global" view="Default view">b1e1242edb9ae740cc4dfce9af961946</sys_ui_section>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>OPM Control Panel</caption>
+            <header>false</header>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 11:50:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1e1242edb9ae740cc4dfce9af961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>OPM Control Panel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_ui_section_b1e1242edb9ae740cc4dfce9af961946</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 11:50:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

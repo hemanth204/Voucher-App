@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hotel Emb List" max_length="40" name="x_sone_voucher_hotel_emb_list" type="collection">
+        <element label="Hotel Name" max_length="40" name="hotel_name" type="string"/>
+        <element label="Number" max_length="32" name="number" reference="x_sone_voucher_entry_form" type="reference"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

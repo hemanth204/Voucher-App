@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="voucher_activation_time_pst" label="Voucher Activation Time (PST)" language="en" table="x_sone_voucher_voucher_order_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>voucher_activation_time_pst</element>
+            <help/>
+            <hint/>
+            <label>Voucher Activation Time (PST)</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <plural>Voucher Activation Time (PST)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-08 07:29:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>043461e9db375b00085cf12aaf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Voucher Activation Time (PST)</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_sone_voucher_voucher_order_form_voucher_activation_time_pst_en</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-08 07:29:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Publisher Information" max_length="40" name="x_sone_voucher_publisher_information" type="collection">
+        <element display="true" label="Publisher Name" max_length="50" name="publisher_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Top Publisher" max_length="40" name="top_publisher" type="boolean"/>
+    </element>
+</database>

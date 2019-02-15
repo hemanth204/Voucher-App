@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_sone_voucher_voucher_order_form">vrf_order_status=^ORvrf_order_status=Voucher Order Review^EQ<item endquery="false" field="vrf_order_status" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="vrf_order_status" goto="false" newquery="false" operator="=" or="true" value="Voucher Order Review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Order</label>
+        <name>Order</name>
+        <order>1</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-07-30 15:31:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5f4c3c7adba75f00085cf12aaf96193c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Order</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_process_flow_5f4c3c7adba75f00085cf12aaf96193c</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-09-17 06:45:10</sys_updated_on>
+        <table>x_sone_voucher_voucher_order_form</table>
+    </sys_process_flow>
+</record_update>

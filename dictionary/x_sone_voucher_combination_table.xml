@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Combination Table" max_length="40" name="x_sone_voucher_combination_table" type="collection">
+        <element label="City" max_length="32" name="city" reference="x_sone_voucher_list_of_city" type="reference"/>
+        <element label="Hotel Name" max_length="32" name="hotel_name" reference="x_sone_voucher_list_of_hotels" type="reference"/>
+        <element label="State" max_length="32" name="state" reference="x_sone_voucher_list_of_state" type="reference"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+        <index name="index2">
+            <element name="state"/>
+        </index>
+        <index name="index3">
+            <element name="hotel_name"/>
+        </index>
+    </element>
+</database>

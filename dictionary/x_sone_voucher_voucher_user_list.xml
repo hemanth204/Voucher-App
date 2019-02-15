@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Voucher User List" max_length="40" name="x_sone_voucher_voucher_user_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="App Level Permissions" max_length="40" name="u_app_level_permissions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Date Added" max_length="40" name="u_date_added" type="string"/>
+        <element attributes="import_attribute_name=Email Address,edge_encryption_enabled=true" label="Email Address" max_length="40" name="u_email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Visited Time" max_length="40" name="u_last_visited_time" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="On Deny List?" max_length="40" name="u_on_deny_list_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent Group Name " max_length="40" name="u_parent_group_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Role in App" max_length="40" name="u_role_in_app" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Show In User Pickers?" max_length="40" name="u_show_in_user_pickers_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Group Name" max_length="40" name="u_target_group_name" type="string"/>
+        <element attributes="import_attribute_name=User ID or Group ID,edge_encryption_enabled=true" label="User ID or Group ID" max_length="40" name="u_user_id_or_group_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Name" max_length="40" name="u_user_name" type="string"/>
+    </element>
+</database>

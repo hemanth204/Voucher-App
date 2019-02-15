@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Selection Form" max_length="40" name="x_sone_voucher_selection_form" type="collection">
+        <element label="City" max_length="32" name="city" reference="x_sone_voucher_list_of_city" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="32" name="state" reference="x_sone_voucher_list_of_state" type="reference"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+        <index name="index2">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

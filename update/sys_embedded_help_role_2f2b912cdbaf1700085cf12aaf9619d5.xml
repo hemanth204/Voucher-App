@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="">e32b912cdbaf1700085cf12aaf9619d4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jprice2</sys_created_by>
+        <sys_created_on>2018-07-23 18:00:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f2b912cdbaf1700085cf12aaf9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e32b912cdbaf1700085cf12aaf9619d4</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2f2b912cdbaf1700085cf12aaf9619d5</sys_update_name>
+        <sys_updated_by>jprice2</sys_updated_by>
+        <sys_updated_on>2018-07-23 18:00:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

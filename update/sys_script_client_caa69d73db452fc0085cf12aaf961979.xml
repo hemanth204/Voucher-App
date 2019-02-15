@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>account_status</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Payment Type CASH/CREDIT</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var publisher=g_form.getValue('top_publisher');
+	var request_type=g_form.getValue('voucher_request_party_type');
+	if(request_type=='first_party'){
+		g_form.setValue('voucher_party_and_payment_type','1st Party - WAIVER');
+	}
+	if(publisher=='true'){
+	  g_form.setValue('payment_type','CREDIT');
+	  g_form.setValue('voucher_party_and_payment_type','3rd Party - CREDIT');
+   }
+	else{
+		g_form.setValue('payment_type','CASH');
+	    g_form.setValue('voucher_party_and_payment_type','3rd Party - CASH');
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-10-16 09:36:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caa69d73db452fc0085cf12aaf961979</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Payment Type CASH/CREDIT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_script_client_caa69d73db452fc0085cf12aaf961979</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-12-13 12:39:51</sys_updated_on>
+        <table>x_sone_voucher_voucher_order_form</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

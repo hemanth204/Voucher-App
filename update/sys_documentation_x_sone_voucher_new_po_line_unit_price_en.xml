@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="unit_price" label="Unit Price" language="en" table="x_sone_voucher_new_po_line">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>unit_price</element>
+            <help/>
+            <hint/>
+            <label>Unit Price</label>
+            <language>en</language>
+            <name>x_sone_voucher_new_po_line</name>
+            <plural>Unit Prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-08-13 15:30:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1162cdd7db775f40cc4dfce9af9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Unit Price</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_sone_voucher_new_po_line_unit_price_en</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:30:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

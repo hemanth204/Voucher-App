@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="finished_good_usage_type" table="x_sone_voucher_voucher_order_form" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finished_good_usage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware Bundle</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:34:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75f5de4ddb679700cc4dfce9af9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:34:04</sys_updated_on>
+            <value>Hardware Bundle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finished_good_usage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Peripheral Bundle</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:34:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39069e4ddb679700cc4dfce9af9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:34:22</sys_updated_on>
+            <value>Peripheral Bundle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finished_good_usage_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:33:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7d59a81dba79700cc4dfce9af9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:33:46</sys_updated_on>
+            <value>Software</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>finished_good_usage_type</element>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:33:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d561076edbeea300351059d0cf96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>finished_good_usage_type</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_choice_x_sone_voucher_voucher_order_form_finished_good_usage_type</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:33:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

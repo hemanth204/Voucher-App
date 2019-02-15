@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="List of City" max_length="40" name="x_sone_voucher_list_of_city" type="collection">
+        <element display="true" label="City Name" max_length="40" name="city_name" type="string"/>
+    </element>
+</database>

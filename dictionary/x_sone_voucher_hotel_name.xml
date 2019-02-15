@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hotel Name" max_length="40" name="x_sone_voucher_hotel_name" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Hotel Name" max_length="40" name="hotel_name" type="string"/>
+        <element label="Numb" max_length="32" name="numb" reference="x_sone_voucher_selection_form" type="reference"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="numb"/>
+        </index>
+    </element>
+</database>

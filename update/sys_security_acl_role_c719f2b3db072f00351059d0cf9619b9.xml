@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-24 02:50:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c719f2b3db072f00351059d0cf9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sone_voucher_list_of_hotels.x_sone_voucher.list_of_hotels_user</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_security_acl display_value="x_sone_voucher_list_of_hotels">0719f2b3db072f00351059d0cf9619b5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c719f2b3db072f00351059d0cf9619b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-24 02:50:29</sys_updated_on>
+        <sys_user_role display_value="x_sone_voucher.list_of_hotels_user" name="x_sone_voucher.list_of_hotels_user">be19f2b3db072f00351059d0cf96197c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

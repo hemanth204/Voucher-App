@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="business_purpose" table="x_sone_voucher_voucher_order_form" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beta</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75deca4ddb679700cc4dfce9af961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:02:55</sys_updated_on>
+            <value>Beta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consumer Service</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:03:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>010f8a4ddb679700cc4dfce9af9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:03:41</sys_updated_on>
+            <value>Consumer Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finished Good</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:02:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdce8a4ddb679700cc4dfce9af961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:02:39</sys_updated_on>
+            <value>Finished Good</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal/Internal Test</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:03:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bee8a4ddb679700cc4dfce9af96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:03:23</sys_updated_on>
+            <value>Internal/Internal Test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marketing</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:01:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f9e824ddb679700cc4dfce9af96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:01:55</sys_updated_on>
+            <value>Marketing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d1f8e4ddb679700cc4dfce9af96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:03:54</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-order</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:01:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc9eca0ddb679700cc4dfce9af96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:01:43</sys_updated_on>
+            <value>Pre-order</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Press/Media</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12bec64ddb679700cc4dfce9af9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:02:23</sys_updated_on>
+            <value>Press/Media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Promo</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:01:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af7e864ddb679700cc4dfce9af96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:01:30</sys_updated_on>
+            <value>Promo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_purpose</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retailer</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbae0a4ddb679700cc4dfce9af961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:02:09</sys_updated_on>
+            <value>Retailer</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>business_purpose</element>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 11:01:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4161076edbeea300351059d0cf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>business_purpose</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_choice_x_sone_voucher_voucher_order_form_business_purpose</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 11:01:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

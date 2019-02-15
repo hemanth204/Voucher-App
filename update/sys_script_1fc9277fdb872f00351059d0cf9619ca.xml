@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sone_voucher_selection_form</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HOtel List</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+var emb1=new GlideRecord('x_sone_voucher_hotel_name');
+	emb1.addQuery('numb',current.sys_id);
+	emb1.addQuery('state',current.state.getDisplayValue());
+	emb1.addQuery('city',current.city.getDisplayValue());
+	emb1.query();
+if(emb1.next()){
+	current.setAbortAction(true);
+}
+	
+else{	
+	var emb2=new GlideRecord('x_sone_voucher_hotel_name');
+	emb2.addQuery('numb',current.sys_id);
+	emb2.query();
+	emb2.deleteMultiple();
+var arr=[];
+var st1=[];
+var ct1=[];
+var hname='';
+var sname='';
+var cname='';
+var st=current.state;
+var ct=current.city;
+var com=new GlideRecord('x_sone_voucher_combination_table');
+	com.addQuery('state',st);
+	com.addQuery('city',ct);
+	com.query();
+while(com.next())
+{
+	hname+=(','+com.hotel_name.getDisplayValue());
+	sname+=(','+com.state.getDisplayValue());
+	cname+=(','+com.city.getDisplayValue());
+}
+	arr=hname.split(',');
+	st1=sname.split(',');
+	ct1=cname.split(',');
+var emb=new GlideRecord('x_sone_voucher_hotel_name');
+	for(var i=1;i<arr.length;i++){
+		emb.hotel_name=arr[i];
+		emb.numb=current.sys_id;
+		emb.state=st1[i];
+		emb.city=ct1[i];
+		emb.insert();
+	}
+}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-24 06:34:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fc9277fdb872f00351059d0cf9619ca</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HOtel List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_script_1fc9277fdb872f00351059d0cf9619ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-27 03:03:52</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1fc9277fdb872f00351059d0cf9619ca"/>
+</record_update>

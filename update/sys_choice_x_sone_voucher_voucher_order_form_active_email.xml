@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="active_email" table="x_sone_voucher_voucher_order_form" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>active_email</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence>1</sequence>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 12:30:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>862b64eadbdae740cc4dfce9af961943</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 12:31:52</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>active_email</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence>2</sequence>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 12:31:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f2b2c6adbdae740cc4dfce9af9619e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 12:31:49</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>active_email</element>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-12-13 12:30:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4961076edbeea300351059d0cf961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>active_email</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_choice_x_sone_voucher_voucher_order_form_active_email</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-12-13 12:30:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>business_purpose_explanation</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>7000017194</sys_created_by>
+        <sys_created_on>2018-07-26 13:37:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efdbff51dbe71b00085cf12aaf961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>business_purpose_explanation</sys_name>
+        <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_efdbff51dbe71b00085cf12aaf961971</sys_update_name>
+        <sys_updated_by>7000017194</sys_updated_by>
+        <sys_updated_on>2018-07-26 13:37:50</sys_updated_on>
+        <table>x_sone_voucher_voucher_order_form</table>
+        <ui_policy display_value="Business Purpose Explanation Mandatory">729b3f51dbe71b00085cf12aaf9619a8</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

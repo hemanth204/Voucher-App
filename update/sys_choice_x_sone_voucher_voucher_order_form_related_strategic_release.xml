@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="related_strategic_release" table="x_sone_voucher_voucher_order_form" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attack On Titan</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:51:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd2cce89db679700cc4dfce9af96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:51:13</sys_updated_on>
+            <value>Attack On Titan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battlefield 1</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:50:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ffbce89db679700cc4dfce9af9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:50:32</sys_updated_on>
+            <value>Battlefield 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COD MWR</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:50:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>401c86c9db679700cc4dfce9af961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:50:47</sys_updated_on>
+            <value>COD MWR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dishonored 2</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:49:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8acb4e89db679700cc4dfce9af961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:49:44</sys_updated_on>
+            <value>Dishonored 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FIFA 17</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:49:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92abce89db679700cc4dfce9af9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:49:18</sys_updated_on>
+            <value>FIFA 17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>For Honor</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>187ccac9db679700cc4dfce9af9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:52:26</sys_updated_on>
+            <value>For Honor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Horizon</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:53:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b59cc6c9db679700cc4dfce9af961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:53:03</sys_updated_on>
+            <value>Horizon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Madden 17</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:51:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a3c86c9db679700cc4dfce9af961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:51:29</sys_updated_on>
+            <value>Madden 17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mass Effect: Andromeda</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:52:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be5c4ac9db679700cc4dfce9af961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:52:08</sys_updated_on>
+            <value>Mass Effect: Andromeda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MLB</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:53:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8ac8ec9db679700cc4dfce9af961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:53:15</sys_updated_on>
+            <value>MLB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monster: World</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db2d460ddb679700cc4dfce9af961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:55:39</sys_updated_on>
+            <value>Monster: World</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Morrowind</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d90dc20ddb679700cc4dfce9af9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:55:06</sys_updated_on>
+            <value>Morrowind</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parappa PS4</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:54:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ccc8ec9db679700cc4dfce9af96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:54:17</sys_updated_on>
+            <value>Parappa PS4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prey</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:53:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4bccec9db679700cc4dfce9af9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:53:28</sys_updated_on>
+            <value>Prey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resident Evil 7</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:52:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a48c4ec9db679700cc4dfce9af9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:52:49</sys_updated_on>
+            <value>Resident Evil 7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sonic Forces</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:55:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b1dc20ddb679700cc4dfce9af9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:55:23</sys_updated_on>
+            <value>Sonic Forces</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Star Wars Battlefront II</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:54:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fecc6c9db679700cc4dfce9af96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:54:40</sys_updated_on>
+            <value>Star Wars Battlefront II</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Titanfall 2</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:50:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ceb8e09db679700cc4dfce9af9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:50:11</sys_updated_on>
+            <value>Titanfall 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>related_strategic_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Watch_Dogs 2</label>
+            <language>en</language>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sequence/>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:51:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a4c86c9db679700cc4dfce9af961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:51:47</sys_updated_on>
+            <value>Watch_Dogs 2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>related_strategic_release</element>
+            <name>x_sone_voucher_voucher_order_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>7000017194</sys_created_by>
+            <sys_created_on>2018-07-25 10:49:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5561076edbeea300351059d0cf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>related_strategic_release</sys_name>
+            <sys_package display_value="Voucher" source="x_sone_voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Voucher">a6ea95a8dbaf1700085cf12aaf9619be</sys_scope>
+            <sys_update_name>sys_choice_x_sone_voucher_voucher_order_form_related_strategic_release</sys_update_name>
+            <sys_updated_by>7000017194</sys_updated_by>
+            <sys_updated_on>2018-07-25 10:49:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

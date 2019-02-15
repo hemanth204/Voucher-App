@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="New PO Line" max_length="40" name="x_sone_voucher_new_po_line" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Line Item" max_length="40" name="line_item" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Number" max_length="32" name="order_number" reference="x_sone_voucher_voucher_order_form" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" label="Total Price" max_length="20" name="total_price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit Price" max_length="40" name="unit_price" type="float"/>
+        <index name="index">
+            <element name="order_number"/>
+        </index>
+    </element>
+</database>
